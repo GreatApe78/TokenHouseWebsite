@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://tokenaim.com.br/favicon.ico" type="image/x-icon">
+    <title>Token House</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://tokenaim.com.br/logo.png" alt="tokenaim-logo">
+        <span id="title">Token House</span>
+        <a id="openSea" href="https://testnets.opensea.io/collection/token-house-rtjekfg3ah" target="_blank">View Asset on Opensea</a>
+        <button id="connectWalletBtn">Connect wallet</button>
+    </header>
+    <main>
+        <div class="inputSpace">
+            <input class="inputText" type="text" placeholder="Rua" id="rua">
+            <input class="inputText" type="text" placeholder="Numero" id="numero">
+            <input class="inputText" type="text" placeholder="Complemento" id="complemento">
+            <input class="inputText" type="text" placeholder="Bairro" id="bairro">
+            <input class="inputText" type="text" placeholder="Cidade" id="cidade">
+            <input class="inputText" type="text" placeholder="Estado" id="estado">
+            <input class="inputText" type="text" placeholder="Vídeo no Youtube (URL)" id="youtube">
+
+        </div>
+        <div class="inputSpace">
+            <input class="inputText" type="text" placeholder="País" id="pais">
+            <input class="inputText" type="number" placeholder="Quartos" id="quartos">
+            <input class="inputText" type="number" placeholder="Banheiros" id="banheiros">
+            <input class="inputText" type="number" placeholder="Área total (m^2)" id="areaTotal">
+
+        </div>
+        <div class="registerBtnSpace">
+            <button id="registerHouseBtn">
+                Register House (0.005 ETH)
+            </button>
+        </div>
+        <div class="contractAddressSpace">
+        <h2 id="tokenAdressSpan"></h2>
+            
+    </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.8.1/web3.min.js"
+        integrity="sha512-vtUOC0YIaNm/UutU7yfnwqnF9LOYnXtpHe2kwi1nvJNloeGQuncNBiEKP/3Ww3D62USAhbXGsnYpAYoiDsa+wA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
